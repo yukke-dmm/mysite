@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<script src="https://kit.fontawesome.com/5ac4675677.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet"  href="style.css">
 	<title>MySite(skup)</title>
@@ -12,12 +13,19 @@
 	  <nav class="">
 		<ul class="nav-list">
 			<li class="nav-image"><a href="index.html"></a></li>
-            <li class="nav-list-item">Contact</li>
-            <li class="nav-list-item"><a href="">Profile</a></li>
-			<li class="nav-list-item"><a href="">Feature</a></li>
-			<li class="nav-list-item"><a href="">Portfolio</a></li>
+            <li class="nav-list-item"><a href="#contact">Contact</a></li>
+            <li class="nav-list-item"><a href="#pro">Profile</a></li>
+			<li class="nav-list-item"><a href="#feature">Feature</a></li>
+			<li class="nav-list-item"><a href="#port">Portfolio</a></li>
 		</ul>
 	</nav>
+	<div id="hm-icon">
+      <a class="menu-trigger" href="nav-list-item">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
    </header>
     <main>
     	<div class="main-visual">
@@ -26,8 +34,9 @@
     	</div>
 
         <div class="back">
+
     	<div class="portfolio clearfix">
-    		<div class="portfolio-title"><strong>Portfolio</strong></div>
+    		<div class="portfolio-title"><a id="port"><strong>Portfolio</strong></a></div>
     		<div class="portfolio-border"></div>
     		<div class="portfolio-text">
     			it is a long established fact that a reader will be distracted by the readable<br>
@@ -42,8 +51,9 @@
             	<div class="image-box6"></div>
     	</div>
         </div>
+
         <div class="feature clearfix">
-    		<div class="portfolio-title"><strong>Feature</strong></div>
+    		<div class="portfolio-title"><a id="feature"><strong>Feature</strong></a></div>
     		<div class="portfolio-border"></div>
     		<div class="portfolio-text">
     			it is a long established fact that a reader will be distracted by the readable<br>
@@ -70,7 +80,7 @@
 
         <div class="back">
     	<div class="profile clearfix">
-    		<div class="portfolio-title"><strong>Profile</strong></div>
+    		<div class="portfolio-title"><a id="pro"><strong>Profile</strong></a></div>
     		<div class="portfolio-border"></div>
     		<div class="portfolio-text">
     			it is a long established fact that a reader will be distracted by the readable<br>
@@ -90,7 +100,7 @@
     </div>
 
         <div class="contact clearfix">
-    		<div class="portfolio-title"><strong>Contact</strong></div>
+    		<div class="portfolio-title"><a id="contact"><strong>Contact</strong></a></div>
     		<div class="portfolio-border"></div>
     		<div class="portfolio-text">
     			it is a long established fact that a reader will be distracted by the readable<br>
@@ -105,14 +115,18 @@
     			<div class="name-text">000-0000-0000</div>
     		  </div>
     		</div>
+
+
     		<div class="sns">
-    		  <div class="center2">
+
     			<div class="name"><strong>SNS</strong></div>
+    		  <div class="center2">
     			<div class="sns-icon"><i class="fab fa-facebook-f"></i></div>
     			<div class="sns-icon"><i class="fab fa-twitter"></i></div>
     			<div class="sns-icon"><i class="fab fa-instagram"></i></div>
     		  </div>
     		</div>
+
     	</div>
     </main>
     <footer>
